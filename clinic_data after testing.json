@@ -1,0 +1,50 @@
+{
+    "patients": [
+        {
+            "patient_id": "P001",
+            "name": "Ahmed Mohamed",
+            "phone": "01012345678",
+            "age": 22
+        }
+   
+    ],
+    "doctors": [
+        {
+            "doctor_id": "D01",
+            "name": "Ali Ahmed",
+            "phone": "01087654321",
+            "specialization": "Optician"
+        },
+        {
+            "doctor_id": "D02",
+            "name": "",
+            "phone": "01087654321",
+            "specialization": "Optician"
+        }
+    ],
+    "appointments": [
+        {
+            "app_id": "A0001",
+            "patient_id": "P001",
+            "doctor_id": "D01",
+            "date_time": "2026-09-30 14:00",
+            "status": "Scheduled"
+        }
+    ],
+    "records": [
+        {
+            "record_id": "R001",
+            "patient_id": "P001",
+            "diagnosis": "Dashed Cornia",
+            "prescription": "3 Days rest and Twitears Medicine"
+        }
+    ],
+    "payments": [
+        {
+            "payment_id": "Pay001",
+            "patient_id": "P001",
+            "amount": 200.0,
+            "status": "Paid"
+        }
+    ]
+}
